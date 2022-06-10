@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8e4e5;
+  font-family: monospace
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 180px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e9e9e985;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.img-perfil:hover {
+  border: solid 3px black;
+  width: 145px;
+  height: 145px;
+  animation-duration: 2s;
+}
+
+.titulo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitulo{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.titulo-skills {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 25px;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+.lista-skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.lista-skills li {
+  display: flex;
+  justify-content: center;
+
+  font-size: 15px;
+  margin-right: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.lista-skills li:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.contato {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contato img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
